@@ -7,6 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,21 +18,106 @@
   </style>
 </head>
 <body>
+  <header>
+    <img src="/images/logo.svg" alt="">
+    <nav>
+      <img class="burger" src="/images/icon-menu.svg" alt="">
+      
+        <div class="header-clickers">
+          <ul class="drop-down-list">
+            <li class="">
+              <p class="drop-down-button">Features</p>
+              
+              <ul class="features drop-down">
+          <li>
+            <img src="/images/icon-todo.svg" alt="">
+          
+            To-do List
+          </li>
+          <li>
+            <img src="/images/icon-calendar.svg" alt="">
+            Calander
+          </li>
+          <li>
+              <img src="/images/icon-reminders.svg" alt="">
+            Reminders
+          </li>
+          <li>
+            <img src="/images/icon-planning.svg" alt="">
+            Planning
+          </li>
+        </ul>
+            </li>
+  <li>
+    <p class="drop-company">Company</p>
+    <ul class="company drop-down">
+          <li>
+            History
+          </li>
+          <li>
+            Our Team
+          </li>
+          <li>
+            Blog 
+          </li>
+          
+        </ul>
+  </li>
+  <li>Careers</li>
+  <li>About</li>
 
-  Features
-  Company
-  Careers
-  About
+          </ul>
+          <ul class="login">
+          <li>login</li>
+          <li>register</li>
 
-  Login
-  Register
+          </ul>
+          
+        
+        
+        
+ 
+  
 
-  Make remote work
+    </nav>
+   
 
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
+  </header>
+  <main>
+      <img class="desktop-image" src="/images/image-hero-desktop.png" alt="">
+      <img class="mobile-hero"src="/images/image-hero-mobile.png" alt="">
+  <div class="text-wrapper">
+    <div class="inner-box-wrapper">
+      <h1>Make remote work</h1>
 
-  Learn more
+  <p>Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.</p>
+
+  <button class="learn-more">Learn more</button>
+
+    </div>
+    
+  
+    <ul class="client-logo">
+      <li>
+        <img src="/images/client-databiz.svg" alt="">
+      </li>
+      <li>
+        <img src="/images/client-audiophile.svg" alt="">
+      </li>
+      <li>
+        <img src="/images/client-maker.svg" alt="">
+      </li>
+      <li>
+        <img src="/images/client-meet.svg" alt="">
+      </li>
+    </ul>
+  
+  
+  </div>
+
+  </main>
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
